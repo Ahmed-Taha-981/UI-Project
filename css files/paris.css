@@ -15,7 +15,6 @@
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
     padding: 0;
     background: var(--bg-light);
     color: var(--dark);
@@ -160,16 +159,42 @@ footer ul li:hover {
 }
 /* End of code to be copied */
 
-main{
-    padding: 15px;
+.container{
+    display: grid;
+    gap: 2rem;
 }
-.left{
-    float:left;
-    padding-right: 10px;
+
+img{
+    margin-inline: auto;
+
+    max-width: 600px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    margin-left: 15px;
 }
-.right{
-    float: right;
+h4{
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--dark);
 }
-div{
-    padding-top: 25px;
+p{
+    margin-bottom: 1rem;
+    color: lightslategray;
+}
+/* laptop */
+@media (width > 540px) {
+    .container{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+    }
+}
+/* tablet */
+@media (width > 768px) {
+    .container{
+        grid-template-columns: repeat(3,1fr);
+
+    }
+    .paris-content{
+        grid-column: 2/4;
+    }
 }
