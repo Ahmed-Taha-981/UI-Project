@@ -168,7 +168,7 @@ img{
     margin-inline: auto;
 
     max-width: 600px;
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
     margin-left: 15px;
 }
 h4{
@@ -195,6 +195,7 @@ p{
 
     }
     .paris-content{
-        grid-column: 2/4;
+        /* make element start at column 2 and end on column 4  */
+        grid-column: 2/4; 
     }
 }
