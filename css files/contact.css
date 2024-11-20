@@ -1,0 +1,31 @@
+:root {
+    --primary: #FEA116;
+    --light: #F1F8FF;
+    --dark: #0F172B;
+    --bg-light: #FFFFFF;
+    --bg-secondary: #F9F9F9;
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form{
+    background-color:lightslategrey;
+    color: var(--dark);
+    padding: 15px;
+    border-radius: 1%;
+    display: block;
+    margin: auto;
+    max-width: 500px;
+    margin-bottom: 50px;
+    margin-top:50px ;
+}
+@media (width > 540px) {
+
+}
+/* labtop */
+@media (width > 1040px) {
+form{
+    margin-left: 500px;
+}
+}
