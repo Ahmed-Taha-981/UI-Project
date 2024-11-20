@@ -8,7 +8,6 @@
     --bg-secondary: #F9F9F9;
 }
 *{
-    padding : 0;
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -135,6 +134,7 @@ footer {
     gap: 20px;
     border-bottom: 4px solid var(--primary);
     margin-top: 20px;
+    clear: both;
 }
 
 footer h2 {
