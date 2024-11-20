@@ -1,0 +1,55 @@
+
+/* Copy this to all sheets and dont insert any code till after the next comment */
+:root {
+    --primary: #FEA116;
+    --light: #F1F8FF;
+    --dark: #0F172B;
+    --bg-light: #FFFFFF;
+    --bg-secondary: #F9F9F9;
+}
+*{
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: grid;
+    gap: 2rem;
+}
+
+img{
+    margin-inline: auto;
+
+    max-width: 400px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+    margin-left: 15px;
+}
+h4{
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--dark);
+}
+p{
+    margin-bottom: 1rem;
+    color: lightslategray;
+}
+/* tablet  */
+@media (width > 540px) {
+    .container{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+    }
+}
+/* labtop */
+@media (width > 768px) {
+    .container{
+        grid-template-columns: repeat(3,1fr);
+
+    }
+    .content{
+        /* make element start at column 2 and end on column 4  */
+        grid-column: 2/4; 
+    }
+}
