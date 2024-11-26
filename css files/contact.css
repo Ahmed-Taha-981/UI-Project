@@ -20,6 +20,12 @@ form{
     margin-bottom: 50px;
     margin-top:50px ;
 }
+.error-message{
+    color: darkred;
+    font-size: 12px;
+    margin-top: 10px;
+    display: none;
+}
 @media (width > 540px) {
 
 }
