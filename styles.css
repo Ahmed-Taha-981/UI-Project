@@ -103,7 +103,7 @@ color: var(--primary);
 .hero {
     position: relative;
     height: 80vh; 
-    background-image: url("l-intro-1672953337.jpg"); 
+    background-image: url("Images/hero.jpg"); 
     background-size: cover; 
     background-position: center; 
     overflow: hidden; 
@@ -172,7 +172,7 @@ color: var(--primary);
 .card {
     background: #ffffff; 
     border: none; 
-    border-radius: 10px; 
+    border-radius: 20px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     overflow: hidden;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
@@ -185,8 +185,9 @@ color: var(--primary);
 }
 
 .card-img-top {
-    height: 200px; 
+    height: 400px; 
     object-fit: cover;
+    width: 100%;
 }
 
 .card-body {
