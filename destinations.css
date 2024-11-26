@@ -24,11 +24,6 @@ p {
     width: 23em;
 }
 
-.destination-card:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-}
-
 .destination-card:hover img {
     opacity: 0.9;
     cursor: pointer;
@@ -76,11 +71,6 @@ p {
     width: 23em;
 }
 
-.journey-card:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-}
-
 .journey-card:hover img {
     opacity: 0.9;
     cursor: pointer;
@@ -103,11 +93,6 @@ p {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
     min-height: 14em;
     width: 23em;
-}
-
-.religous-card:hover {
-    transform: scale(1.1);
-    cursor: pointer;
 }
 
 .religous-card:hover img {
