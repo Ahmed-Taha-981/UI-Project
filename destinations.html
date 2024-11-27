@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="destinations.css">
+    <link rel="stylesheet" href="css files\details.css">
+    <link rel="stylesheet" href="css files\styles.css">
+    <link rel="stylesheet" href="css files\destinations.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/kkooi9ifont-awesome/6.5.2/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/038378b7e0.js" crossorigin="anonymous"></script>
-
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Destinations</title>
 </head>
 
@@ -22,21 +23,27 @@
                 <ul class="non-social">
                     <li><i id="mail" class="fa-solid fa-envelope"></i> abroad@gmail.com</li>
                     <li><i id="phone" class="fa-solid fa-phone"></i> (+20) 123 123 123</li>
-                    <div class="social">
-                        <ul>
-                            <li>
-                                <i class="fa-brands fa-facebook"><a href=""></a></i>
-                            </li>
-                            <li>
-                                <i class="fa-brands fa-instagram"><a href=""></a></i>
-                            </li>
-                            <li>
-                                <i class="fa-brands fa-linkedin"><a href=""></a></i>
-                            </li>
-                        </ul>
-                    </div>
-
                 </ul>
+                <div class="social">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/faris.shohdy" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/faris_sharara/" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/faris-sharara/" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
             </div>
             <div class="nav-sections">
                 <ul>
@@ -70,8 +77,8 @@
                     <p>Discover the World, One Destination at a Time!</p>
                 </div>
                 <div class="destination-grid">
-                    <div class="destination-card">
-                        <img src="Images/bali.jpg" alt="bali">
+                    <div class="destination-card" id="Bali">
+                        <img src="Images/bali.jpg" alt="bali" height="360" width="720">
                         <div class="destination-details">
                             <div>
                                 <h4>Bali, Indonesia</h4>
@@ -82,8 +89,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="destination-card">
-                        <img src="Images/london.jpg" alt="cologne">
+                    <div class="destination-card" id="London">
+                        <img src="Images/london.jpg" alt="london" height="360" width="720">
                         <div class="destination-details">
                             <div>
                                 <h4>London, UK</h4>
@@ -94,8 +101,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="destination-card">
-                        <img src="Images/paris.jpg" alt="paris">
+                    <div class="destination-card" id="Paris">
+                        <img src="Images/paris.jpg" alt="paris" height="360" width="720"> 
                         <div class="destination-details">
                             <div>
                                 <h4>Paris, France</h4>
@@ -113,8 +120,8 @@
             <h2>Middle-Eastern Landmarks</h2>
             <p>Book your hostile with us</p>
             <div class="journey-grid">
-                <div class="journey-card">
-                    <img src="Images/dubai.webp" alt="dubai">
+                <div class="journey-card" id="Dubai">
+                    <img src="Images/dubai.webp" alt="dubai" height="360" width="720">
                     <div class="destination-details">
                         <div>
                             <h4>Dubai, UAE</h4>
@@ -125,8 +132,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="journey-card">
-                    <img src="Images/petra.jpg" alt="petra">
+                <div class="journey-card" id="Petra">
+                    <img src="Images/petra.jpg" alt="petra" height="360" width="720">
                     <div class="destination-details">
                         <div>
                             <h4>Petra, Jordan</h4>
@@ -137,8 +144,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="journey-card">
-                    <img src="Images/istanbul.png" alt="istanbul">
+                <div class="journey-card" id="Istanbul">
+                    <img src="Images/istanbul.png" alt="istanbul" height="360" width="720">
                     <div class="destination-details">
                         <div>
                             <h4>Istanbul, Turkey</h4>
@@ -155,8 +162,8 @@
             <h2>Religious Destinations</h2>
             <p>Effortless planning for your next trip</p>
             <div class="religous-grid">
-                <div class="religous-card">
-                    <img src="Images/mecca.jpg" alt="mecca">
+                <div class="religous-card" id="Mecca">
+                    <img src="Images/mecca.jpg" alt="mecca" height="360" width="720">
                     <div class="destination-details">
                         <div>
                             <h4>Mecca, KSA</h4>
@@ -167,8 +174,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="religous-card">
-                    <img src="Images/madina.jpg" alt="medina">
+                <div class="religous-card" id="Medina">
+                    <img src="Images/madina.jpg" alt="medina" height="360" width="720">
                     <div class="destination-details">
                         <div>
                             <h4>Medina, KSA</h4>
@@ -179,8 +186,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="religous-card">
-                    <img src="Images/canterbury.jpg" alt="canterbury">
+                <div class="religous-card" id="Canterbury">
+                    <img src="Images/canterbury.jpg" alt="canterbury" height="360" width="720">
                     <div class="destination-details">
                         <div>
                             <h4>Canterbury, England</h4>
@@ -216,6 +223,8 @@
             </ul>
         </div>
     </footer>
+    <script src="JS files\destinations.js" ></script>
+    <script src="JS files\details.js" ></script>
 </body>
 
 </html>

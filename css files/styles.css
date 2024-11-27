@@ -51,14 +51,14 @@ nav .title a{
 #two-nav-blocks {
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: space-between;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: space-evenly;
     gap: 15px;
 }
-.contact-info ul{
+.contact-info, .contact-info ul {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content:space-between;
     background-color: var(--bg-secondary);
     color: var(--dark);
     border-bottom-left-radius: 20%;
@@ -103,7 +103,11 @@ color: var(--primary);
 .hero {
     position: relative;
     height: 80vh; 
+<<<<<<< HEAD:styles.css
     background-image: url("/Images/l-intro-1672953337.jpg"); 
+=======
+    background-image: url("Images/hero.jpg"); 
+>>>>>>> b48bf48707a6267000e10f9861fb971cb44b70ba:css files/styles.css
     background-size: cover; 
     background-position: center; 
     overflow: hidden; 
@@ -172,7 +176,7 @@ color: var(--primary);
 .card {
     background: #ffffff; 
     border: none; 
-    border-radius: 10px; 
+    border-radius: 20px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     overflow: hidden;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
@@ -185,8 +189,9 @@ color: var(--primary);
 }
 
 .card-img-top {
-    height: 200px; 
+    height: 400px; 
     object-fit: cover;
+    width: 100%;
 }
 
 .card-body {
@@ -245,13 +250,19 @@ color: var(--primary);
 
 .social {
     object-fit: cover;
-    transition: transform 0.3s ease-in-out;
     cursor: pointer;
 }
-
-.social:hover {
-    transform: scale(1.1);
+.social li{
+    transition: transform 0.3s ease-in-out;
 }
+.social li:hover{
+    transform: scale(1.3);
+}
+.social li a{
+    text-decoration: none;
+    color: var(--primary);
+}
+
 
 
 section {
