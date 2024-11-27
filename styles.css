@@ -103,7 +103,7 @@ color: var(--primary);
 .hero {
     position: relative;
     height: 80vh; 
-    background-image: url("l-intro-1672953337.jpg"); 
+    background-image: url("/Images/l-intro-1672953337.jpg"); 
     background-size: cover; 
     background-position: center; 
     overflow: hidden; 
