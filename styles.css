@@ -31,7 +31,7 @@ ul {
 
 
 nav {
-    padding-left: 20px;
+    padding: 40px 20px;
     background: var(--dark);
     color: var(--light);
     display: flex;
@@ -45,7 +45,8 @@ nav {
 nav .title a{
     text-decoration: none;
     color: var(--primary);
-    font-size: 30px;
+    font-size: 3.5rem;
+    font-weight: 600;
 }
 
 #two-nav-blocks {
@@ -55,31 +56,9 @@ nav .title a{
     align-items: space-evenly;
     gap: 15px;
 }
-.contact-info, .contact-info ul {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    background-color: var(--bg-secondary);
-    color: var(--dark);
-    border-bottom-left-radius: 20%;
-}
-.contact-info ul li {
-    font-size: 14px;
-    padding-top:10px ;
-    padding-right: 20px;
-    padding-left: 15px;
-    padding-bottom: 5px;
-}
-
-.contact-info .social li ,#mail ,#phone {
-        display: inline-block;
-    margin-right: 10px;
-color: var(--primary);
-    font-size: 15px;
-}
 
 .nav-sections ul {
-    padding: 10px 20px ;
+    padding: 8px 20px ;
     display: flex;
     gap: 20px;
 }
@@ -92,7 +71,7 @@ color: var(--primary);
     text-decoration: none;
     color: var(--light);
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 2.5rem;
 }
 
 .nav-sections ul li a:hover {
@@ -103,7 +82,7 @@ color: var(--primary);
 .hero {
     position: relative;
     height: 80vh; 
-    background-image: url("Images/hero.jpg"); 
+    background-image: url("hero.jpg"); 
     background-size: cover; 
     background-position: center; 
     overflow: hidden; 
@@ -267,38 +246,12 @@ section {
     background: var(--bg-secondary);
 }
 
-
+/* Footer */
 footer {
-    background: var(--dark);
-    color: var(--light);
-    padding: 20px 70px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
-    border-bottom: 4px solid var(--primary);
+    background-color: #0F172B;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
     margin-top: 20px;
     clear: both;
-}
-
-footer h2 {
-    font-size: 18px;
-    color: var(--primary);
-    margin-bottom: 10px;
-}
-
-footer ul li {
-    font-size: 14px;
-    margin-bottom: 5px;
-}
-
-footer ul li  {
-    color: var(--light);
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-footer ul li:hover {
-    cursor: default;
-    color: var(--primary);
 }
