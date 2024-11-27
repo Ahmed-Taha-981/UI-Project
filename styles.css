@@ -45,7 +45,8 @@ nav {
 nav .title a{
     text-decoration: none;
     color: var(--primary);
-    font-size: 30px;
+    font-size: 3.5rem;
+    font-weight: 600;
 }
 
 #two-nav-blocks {
@@ -55,31 +56,9 @@ nav .title a{
     align-items: space-evenly;
     gap: 15px;
 }
-.contact-info, .contact-info ul {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    background-color: var(--bg-secondary);
-    color: var(--dark);
-    border-bottom-left-radius: 20%;
-}
-.contact-info ul li {
-    font-size: 8rem;
-    padding-top:10px ;
-    padding-right: 20px;
-    padding-left: 15px;
-    padding-bottom: 5px;
-}
-
-.contact-info .social li ,#mail ,#phone {
-        display: inline-block;
-    margin-right: 10px;
-color: var(--primary);
-    font-size: 15px;
-}
 
 .nav-sections ul {
-    padding: 10px 20px ;
+    padding: 8px 20px ;
     display: flex;
     gap: 20px;
 }
@@ -92,7 +71,7 @@ color: var(--primary);
     text-decoration: none;
     color: var(--light);
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 2.5rem;
 }
 
 .nav-sections ul li a:hover {
@@ -273,4 +252,6 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px;
+    margin-top: 20px;
+    clear: both;
 }
