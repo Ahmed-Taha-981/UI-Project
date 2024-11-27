@@ -34,79 +34,62 @@
         </div>
     </nav>
 
-     <div class=" toCenter ">
-     <form class="col-md-8" id="form">
+    <div class="container-fluid min-vh-100 d-flex justify-content-center align-items-center" id="container">
+      <form class="col-md-8 col-lg-6" id="form">
         <div class="form-row">
-            <div class="form-group col-md-6">
-                <label for="inputName">First Name</label>
-                <input type="text" class="form-control" id="inputName" placeholder="First Name" >
-                <span class="error-message" id="firstNameError">First Name is Required</span>
-              </div>
-              <div class="form-group col-md-6">
-                <label for="inputLName">Last Name</label>
-                <input type="text" class="form-control" id="inputLName" placeholder="Last Name" >
-                <span class="error-message" id="lastNameError">Last Name is Required</span>
-              </div>
-       
+          <div class="form-group col-md-6">
+            <label for="inputName">First Name</label>
+            <input type="text" class="form-control" id="inputName" placeholder="First Name">
+            <span class="error-message" id="firstNameError">First Name is Required</span>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputLName">Last Name</label>
+            <input type="text" class="form-control" id="inputLName" placeholder="Last Name">
+            <span class="error-message" id="lastNameError">Last Name is Required</span>
+          </div>
         </div>
-
-        
         <div class="form-row">
-
           <div class="form-group col-md-6">
             <label for="inputEmail4">Email</label>
-            <input type="email" class="form-control" id="inputEmail4" placeholder="example@gmail.com" >
+            <input type="email" class="form-control" id="inputEmail4" placeholder="example@gmail.com">
             <span class="error-message" id="emailError">Valid email is required</span>
           </div>
-
-
           <div class="form-group col-md-6">
             <label for="inputUser">Phone Number</label>
-            <input type="number" class="form-control" id="inputUser" >
+            <input type="number" class="form-control" id="inputUser">
             <span class="error-message" id="phoneError">Valid phone number is required</span>
           </div>
-
-       
         </div>
-
-
-
-        <div class="form-row ">
-
-            <div class="form-group col-md-4">
-                <label for="inputState">Country</label>
-                <select id="inputState" class="form-control" >
-                  <option selected>Choose...</option>
-                  <option>Egypt</option>
-                  <option>UAE</option>
-                  <option>USA</option>
-                  <option>KSA</option>
-                </select>
-                <span class="error-message" id="countryError">Country is Required</span>
-              </div>
-    
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            <label for="inputState">Country</label>
+            <select id="inputState" class="form-control">
+              <option selected>Choose...</option>
+              <option>Egypt</option>
+              <option>UAE</option>
+              <option>USA</option>
+              <option>KSA</option>
+            </select>
+            <span class="error-message" id="countryError">Country is Required</span>
+          </div>
           <div class="form-group col-md-6">
             <label for="inputCity">City</label>
             <input type="text" class="form-control" id="inputCity">
           </div>
-
           <div class="form-group col-md-2">
             <label for="inputZip">Zip</label>
             <input type="text" class="form-control" id="inputZip">
           </div>
         </div>
-
         <div class="form-row">
-            <div class="form-group col-md-12">
-                <label for="inputText">Enter Message</label>
-                <textarea class="form-control" id="inputText" rows="9" ></textarea>
-                <span class="error-message" id="messageError">Message is required</span>
-                <br>
-                <button type="submit" class="btn btn-primary">Submit</button>
-
-             </div>
+          <div class="form-group col-md-12">
+            <label for="inputText">Enter Message</label>
+            <textarea class="form-control" id="inputText" rows="9"></textarea>
+            <span class="error-message" id="messageError">Message is required</span>
+            <br>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
         </div>
-        <div></div>
       </form>
     </div>
 

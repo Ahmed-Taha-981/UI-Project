@@ -5,20 +5,24 @@
     --bg-light: #FFFFFF;
     --bg-secondary: #F9F9F9;
 }
+html{
+    font-size: 16px;
+}
 *{
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 form{
-    background-color:lightslategrey;
+    background-color:#f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     color: var(--dark);
     padding: 15px;
     border-radius: 1%;
     display: block;
-    margin: auto;
     max-width: 500px;
     margin-bottom: 50px;
     margin-top:50px ;
+    margin-left: 250px;
 }
 .error-message{
     color: darkred;
@@ -26,12 +30,16 @@ form{
     margin-top: 10px;
     display: none;
 }
-@media (width > 540px) {
-
+/* tablet */
+@media (width > 480px) and (width <=1023px) {
+    form{
+        margin: auto;
+    }
 }
-/* labtop */
-@media (width > 1040px) {
-form{
-    margin-left: 500px;
-}
+/* phone */
+@media (width < 480px) {
+    form{
+        margin: auto;
+        max-width: 300px;
+    }
 }

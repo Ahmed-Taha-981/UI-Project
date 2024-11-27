@@ -30,20 +30,23 @@ h4{
     font-size: 3rem;
     font-weight: 600;
     color: var(--dark);
+    margin-left: 15px;
 }
 .dest-paragraph{
     margin-bottom: 1rem;
     color: lightslategray;
     text-align: left;
 }
-/* tablet  */
+p{
+    margin-right:15px;
+    margin-left: 15px;
+}
 @media (width > 540px) {
     .container{
         grid-template-columns: repeat(2,1fr);
         align-items: center;
     }
 }
-/* labtop */
 @media (width > 768px) {
     .container{
         grid-template-columns: repeat(3,1fr);
@@ -51,6 +54,6 @@ h4{
     }
     .content{
         /* make element start at column 2 and end on column 4  */
-        grid-column: 2/4; 
+        grid-column: 2/4;
     }
 }
