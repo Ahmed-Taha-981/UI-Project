@@ -48,3 +48,26 @@
 .read-more:hover {
     background: #d08414;
 }
+
+.blog-card.highlight {
+    border: 2px solid #ff9900;
+    box-shadow: 0 8px 15px rgba(255, 153, 0, 0.3);
+}
+
+
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.blog-card.bounce {
+    animation: bounce 0.5s ease-out;
+}

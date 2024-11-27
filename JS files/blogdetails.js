@@ -1,19 +1,23 @@
-// Scroll-to-top functionality
-document.addEventListener('DOMContentLoaded', () => {
-    const scrollToTopButton = document.createElement('button');
-    scrollToTopButton.className = 'scroll-to-top';
-    scrollToTopButton.innerHTML = '<i class="fa-solid fa-arrow-up"></i>';
-    document.body.appendChild(scrollToTopButton);
+document.addEventListener("DOMContentLoaded", function () {
 
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 300) {
-            scrollToTopButton.classList.add('show');
-        } else {
-            scrollToTopButton.classList.remove('show');
-        }
+
+    gsap.from("article", {
+        duration: 1.5,
+        opacity: 0,
+        y: 50,
+        ease: "power2.out"
     });
 
-    scrollToTopButton.addEventListener('click', () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    gsap.from(".destination-image", {
+        duration: 2,
+        opacity: 0,
+        scale: 0.8,
+        stagger: 0.2,
+        ease: "power2.out"
     });
+
+    
+
+   
 });
