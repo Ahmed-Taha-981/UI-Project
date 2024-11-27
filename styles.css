@@ -31,7 +31,7 @@ ul {
 
 
 nav {
-    padding-left: 20px;
+    padding: 40px 20px;
     background: var(--dark);
     color: var(--light);
     display: flex;
@@ -64,7 +64,7 @@ nav .title a{
     border-bottom-left-radius: 20%;
 }
 .contact-info ul li {
-    font-size: 14px;
+    font-size: 8rem;
     padding-top:10px ;
     padding-right: 20px;
     padding-left: 15px;
@@ -103,7 +103,7 @@ color: var(--primary);
 .hero {
     position: relative;
     height: 80vh; 
-    background-image: url("Images/hero.jpg"); 
+    background-image: url("hero.jpg"); 
     background-size: cover; 
     background-position: center; 
     overflow: hidden; 
@@ -267,38 +267,10 @@ section {
     background: var(--bg-secondary);
 }
 
-
+/* Footer */
 footer {
-    background: var(--dark);
-    color: var(--light);
-    padding: 20px 70px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
-    border-bottom: 4px solid var(--primary);
-    margin-top: 20px;
-    clear: both;
-}
-
-footer h2 {
-    font-size: 18px;
-    color: var(--primary);
-    margin-bottom: 10px;
-}
-
-footer ul li {
-    font-size: 14px;
-    margin-bottom: 5px;
-}
-
-footer ul li  {
-    color: var(--light);
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-footer ul li:hover {
-    cursor: default;
-    color: var(--primary);
+    background-color: #0F172B;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
 }
