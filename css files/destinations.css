@@ -99,3 +99,19 @@ p {
     opacity: 0.9;
     cursor: pointer;
 }
+
+@media (max-width: 1023px) {
+    .destination-card, .journey-card, .religous-card {
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    
+    #skills .content .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        text-align: center;
+    }
+
+}
